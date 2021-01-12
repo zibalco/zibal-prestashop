@@ -95,6 +95,7 @@ class zibal_prestashop extends PaymentModule {
                 }
             }
 
+			$rial_amount = $amount;
             if ($currency_iso_code != 'IRR'){
                 $rial_amount = $amount * 10;
 			}
